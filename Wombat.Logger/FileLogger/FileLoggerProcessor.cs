@@ -34,7 +34,7 @@ namespace Wombat.Logger
         {
             private Stream _appendStream;
 
-            private Wombat.AsyncLock _asyncLock = new Wombat.AsyncLock();
+            private AsyncLock _asyncLock = new AsyncLock();
             public LogFileInfo(FileLoggerProcessor processor, ILogFileSettings fileSettings, IFileLoggerSettings settings)
             {
 
