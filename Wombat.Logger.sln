@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wombat.Logger", "Wombat.Logger\Wombat.Logger.csproj", "{F65F14EB-F0D1-4615-8BEE-9469D29139BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F65F14EB-F0D1-4615-8BEE-9469D29139BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F65F14EB-F0D1-4615-8BEE-9469D29139BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F65F14EB-F0D1-4615-8BEE-9469D29139BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F65F14EB-F0D1-4615-8BEE-9469D29139BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDAE515B-5255-48A2-9BE6-6B054EB0195B}
+	EndGlobalSection
+EndGlobal
