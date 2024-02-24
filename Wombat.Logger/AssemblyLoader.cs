@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Xml.Linq;
-using Wombat.Extensions.DataTypeExtensions;
+
 
 namespace Wombat
 {
@@ -161,7 +161,10 @@ namespace Wombat
         {
             var loadedAssemblies = new List<Assembly>();
             var loadedAppDomainAssemblies = AppDomain.CurrentDomain.GetAssemblies();
-            Assembly.GetEntryAssembly().GetReferencedAssemblies().ForEach((name) => { AddIfNotAlreadyAdded(loadedAssemblies, Assembly.Load(name)); }) ;
+            foreach (var assembly in Assembly.GetEntryAssembly().GetReferencedAssemblies())
+            {
+                AddIfNotAlreadyAdded(loadedAssemblies, Assembly.Load(assembly));
+            }
             foreach (var assembly in loadedAppDomainAssemblies)
             {
                 AddIfNotAlreadyAdded(loadedAssemblies, assembly);

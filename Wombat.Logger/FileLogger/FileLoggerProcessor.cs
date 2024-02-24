@@ -21,7 +21,7 @@ namespace Wombat.Logger
 
     public class FileLoggerProcessor : IFileLoggerProcessor
     {
-        private Wombat.AsyncLock _asyncLock = new Wombat.AsyncLock();
+        private AsyncLock _asyncLock = new AsyncLock();
 
         private enum Status
         {

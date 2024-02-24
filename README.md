@@ -1,2 +1,2 @@
-# Wombat.DependencyInjection
-根据M$的依赖注入包扩展
+# Wombat.Logger
+根据M$的日志组件

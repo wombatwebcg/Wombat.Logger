@@ -5,9 +5,7 @@ VisualStudioVersion = 16.0.34301.259
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wombat.Logger", "Wombat.Logger\Wombat.Logger.csproj", "{F65F14EB-F0D1-4615-8BEE-9469D29139BD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wombat", "..\..\Wombat\Wombat\Wombat\Wombat.csproj", "{E80C847C-246A-471F-8439-14675BEC6CED}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wombat.LoggerTests", "Wombat.LoggerTests\Wombat.LoggerTests.csproj", "{D801628C-7CC0-4BE9-A9E5-3881C4BD4011}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wombat.LoggerTests", "Wombat.LoggerTests\Wombat.LoggerTests.csproj", "{D801628C-7CC0-4BE9-A9E5-3881C4BD4011}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		{F65F14EB-F0D1-4615-8BEE-9469D29139BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F65F14EB-F0D1-4615-8BEE-9469D29139BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F65F14EB-F0D1-4615-8BEE-9469D29139BD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E80C847C-246A-471F-8439-14675BEC6CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E80C847C-246A-471F-8439-14675BEC6CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E80C847C-246A-471F-8439-14675BEC6CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E80C847C-246A-471F-8439-14675BEC6CED}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D801628C-7CC0-4BE9-A9E5-3881C4BD4011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D801628C-7CC0-4BE9-A9E5-3881C4BD4011}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D801628C-7CC0-4BE9-A9E5-3881C4BD4011}.Release|Any CPU.ActiveCfg = Release|Any CPU
